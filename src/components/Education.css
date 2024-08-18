@@ -1,0 +1,30 @@
+.educ-container {
+  display: flex;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.educ-header {
+  color: #222935;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.educ-line {
+  width: 5px;
+  height: 100px;
+  background-color: #26c17e;
+  border-radius: 5px;
+}
+
+.right-column {
+  background-color: #eeeeee;
+  margin: 10px 0px 0px 30px;
+  padding: 15px;
+}

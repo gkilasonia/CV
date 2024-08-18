@@ -1,0 +1,108 @@
+.skills-container {
+  margin: 30px 0px 0px 35px;
+  max-width: 965px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.skill-header {
+  color: #26c17e;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.open-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222935;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.skills-form {
+  width: 965px;
+  height: 230px;
+  border: 1px solid #26c17e;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0px 0px 15px;
+}
+
+label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.input {
+  width: 270px;
+}
+
+.add-skill {
+  width: 100px;
+  height: 40px;
+  margin: 20px 0px 0px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222935;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.bar20 {
+  width: 20%;
+}
+
+.bar40 {
+  width: 40%;
+}
+
+.bar60 {
+  width: 60%;
+}
+
+.bar80 {
+  width: 80%;
+}
+
+.bar100 {
+  width: 100%;
+}
+
+.bar20,
+.bar40,
+.bar60,
+.bar80,
+.bar100 {
+  background-color: #26c17e;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 5px 0px 5px 15px;
+}

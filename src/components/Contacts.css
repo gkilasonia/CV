@@ -1,0 +1,20 @@
+.contacts-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.section-phone,
+.section-email,
+.section-facebook {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: #222935;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}

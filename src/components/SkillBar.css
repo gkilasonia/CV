@@ -1,0 +1,53 @@
+.skills {
+  margin-top: 40px;
+}
+.skill {
+  background-color: #26c17e;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 5px 0px 5px 15px;
+  color: #ffffff;
+}
+
+.quality-skill {
+  width: 60%;
+}
+
+.scale-container {
+  margin-top: 15px;
+  display: flex;
+}
+
+.scale {
+  width: 33.3%;
+  height: 10px;
+  border: 1px solid #667081;
+  border-top: none;
+}
+
+.scale-measurement {
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.measurement {
+  color: #667081;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-top: 10px;
+}
+
+.measurement-proficient {
+  position: absolute;
+  left: 30.5%;
+}
+
+.measurement-expert {
+  position: absolute;
+  left: 65%;
+}
